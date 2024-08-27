@@ -1,3 +1,5 @@
+## reg no:212223230156
+## NAME: PREETHI A K
 # Swapping-two-values
 ## AIM:
 To write a python program for swapping of two values
@@ -18,10 +20,31 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+def swap(a,b):
+
+    t=a
+    
+    a=b
+    
+    b=t
+    
+    return a,b
+    
+a=input()
+
+b=input()
+
+a,b=swap(a,b)
+
+print("Swapped values are: {} {}".format(a,b))
+
 
 
 
 ## RESULT:
+![image](https://github.com/user-attachments/assets/a93cd2c5-15cd-4f2f-97e6-09559747830b)
+
+
 Thus the swapping of two values are successfully executed
 
 
