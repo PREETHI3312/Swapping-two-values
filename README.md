@@ -1,7 +1,6 @@
 ## DATE:
-## reg no:212223230156
-## NAME: PREETHI A K
-# Swapping-two-values
+
+# EXP 1: Swapping-two-values
 ## AIM:
 To write a python program for swapping of two values
 ## EQUIPEMENT'S REQUIRED: 
@@ -21,6 +20,7 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+```
 def swap(a,b):
 
     t=a
@@ -38,6 +38,8 @@ b=input()
 a,b=swap(a,b)
 
 print("Swapped values are: {} {}".format(a,b))
+
+```
 
 
 
